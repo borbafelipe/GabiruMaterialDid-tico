@@ -1,3 +1,13 @@
+
+/*
+
+              _..----.._    _
+            .'  .--.    "-.(0)_                         GABIRU STAMP OF QUALITY
+'-.__.-'"'=:|   ,  _)_ \__ . c\'-..   GABIRU CASA MACIA CORPORATION LTDA INC. S.A TUDOS E TUDOS.
+             '''------'---''---'-"    MADE IN LOCAL SECRETO DO ESCONDERIJO DOS NOSFERATUS DO ESGOTO;
+                                                                                         ART BY CJW.
+*/
+
 public class Casa{
     
     //GABIRU SOFTHOUSE BIZÚ DE JAVA
