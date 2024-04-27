@@ -1,4 +1,3 @@
-
 /*
 
               _..----.._    _
@@ -41,7 +40,7 @@ public class Casa{
 *CONSTRUTOR, esse aqui recebe tres parametros, e vai fazer a casa com os parametros.
 *pega a visao, nesse exemplo aqui eu coloquei os nomes usando a palavra "parametro" nos parametros
 *mas com frequencia tu vai ver o mesmo nome duas vezes.
-*no proximo construtor eu vou usar o mesmo nome duas vezes, pq o paramentro nao existe dentro do {}
+*no proximo construtor eu vou usar o mesmo nome duas vezes, pq o paramentro nao existe fora do {}
 *do construtor.
 N
 */
@@ -108,3 +107,16 @@ private int getNumComodos(){
 }
 
 }
+//tarefinha do gabiru: se voce esta lendo essa versão, eu tinha esquecido quando fiz, eu tenho uma tarefa pra vc. escreva um main
+//pra usar os metodos que tem ai, instancia o objeto e faz os bangs: tipo, instancia uma casa ai, faz com varios comodos, usa o get
+//usa o set e da commit ou me manda no borbafelipedev@gmail.com (lembra de fazer o branch ein)
+
+
+
+
+
+
+//outro o codigo da primeira aula de POO tem coisas alem daqui, como o toString() e outras coisas que podem ser parte do conteudo 
+//pega a visao: vou fazer outra parada dessa
+// vou fazer um mais legal pra a parte de herança e polimorfismo.
+//outra, 
