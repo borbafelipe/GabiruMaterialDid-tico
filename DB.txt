@@ -1,0 +1,53 @@
+1. Exibir o nome do setor, a sigla e o nome do chefe de cada setor da empresa, ordenados pelo nome 
+do setor.
+SELECT NomeDepartamento, ResponsavelDepartamento 
+FROM Departamentos
+ORDER BY ResponsavelDepartamento
+
+
+2. Exibir, para cada produto, o código e o nome do tipo, o nome do produto, a quantidade em estoque, o 
+preço de venda e o valor total de cada produto (quantidade em estoque * preço de venda).
+
+SELECT NomeProduto, ID, Categoria, NomeProduto, EstoqueAtual, PrecoUnitario, (PrecoUnitario * EstoqueAtual) AS ValorTotal
+FROM Produtos
+
+3. Exibir o nome do tipo com a quantidade e o valor total dos produtos para cada tipo.
+
+SELECT Categoria  , SUM(PrecoUnitario * EstoqueAtual) as Total
+FROM Produtos
+GROUP BY Categoria
+Categoria  , SUM(PrecoUnitario * EstoqueAtual) as Total,SUM(EstoqueAtual) AS TOTAL_ESTOQUE
+FROM Produtos
+GROUP BY Categoria
+
+4. Exibir a quantidade de clientes existente em cada cidade que a empresa atende, exibindo o nome da 
+cidade e ordenando pelo nome da cidade.
+
+SELECT Cidade, COUNT(ID) AS quantidadeClientes
+FROM Clientes
+GROUP BY Cidade
+ORDER BY Cidade
+
+5. Exibir por função e por sexo quantos funcionários não possuem e-mail, exibindo também o nome da 
+função e ordenando pela função.
+
+SELECT 
+    Cargo, Genero, COUNT(Email)
+FROM 
+    Funcionarios
+WHERE 
+    Email IS NULL
+GROUP BY 
+    Cargo, Genero
+ORDER BY 
+    Cargo;
+
+6. Exibir o nome do produto, o nome do tipo, o preço médio de custo e o preço médio de venda e a diferença entre esses preços para cada produto existente na empresa, ordenados pelo nome do produto
+
+
+
+
+
+
+
+
